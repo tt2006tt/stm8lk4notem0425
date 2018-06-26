@@ -1,0 +1,10 @@
+---- Key_Type Matches (10 in 3 files) ----
+Flashbatt.c (f:\201803_project\stm8lk4无温湿度0425\app):		if(ProgramPara.Key_Type == 4){
+Flashbatt.c (f:\201803_project\stm8lk4无温湿度0425\app):          ProgramPara.Key_Type = 0;
+Flashbatt.c (f:\201803_project\stm8lk4无温湿度0425\app):          SetBit(ProgramPara.Key_Type,1);
+Flashbatt.c (f:\201803_project\stm8lk4无温湿度0425\app):            ProgramPara.Key_Type = 0;
+Flashbatt.c (f:\201803_project\stm8lk4无温湿度0425\app):			DatePackege[len] |= ProgramPara.Key_Type;len++;//key_type 未定 0 短按 1长按 2 连按3下  3:报警
+Main.c (f:\201803_project\stm8lk4无温湿度0425\app):		ProgramPara.Key_Type = 0;
+Main.c (f:\201803_project\stm8lk4无温湿度0425\app):			ProgramPara.Key_Type = 0;
+Main.c (f:\201803_project\stm8lk4无温湿度0425\app):            SetBit(ProgramPara.Key_Type,2);
+Main.h (f:\201803_project\stm8lk4无温湿度0425\app):    uint8_t Key_Type;			//按键状态
